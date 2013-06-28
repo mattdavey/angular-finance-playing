@@ -1,4 +1,4 @@
-#Finanancial Play Area
+#Financial Play Area
 
 Based on angluar-seed
 
