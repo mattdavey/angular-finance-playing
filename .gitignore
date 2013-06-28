@@ -1,2 +1,6 @@
 logs/*
 !.gitkeep
+app/css
+.sass-cache/f5dcf6ebfcb443249160de4eb94f8a3b176efa11/app.scssc
+.sass-cache/f5dcf6ebfcb443249160de4eb94f8a3b176efa11/style.scssc
+app/.sass-cache/f5dcf6ebfcb443249160de4eb94f8a3b176efa11/style.scssc
