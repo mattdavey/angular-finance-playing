@@ -1,5 +1,16 @@
 basePath = '../';
 
+preprocessors = {
+  '**/js/*.js': 'coverage'
+};
+
+reporters = ['coverage'];
+
+coverageReporter = {
+  type : 'html',
+  dir : 'coverage/'
+};
+
 files = [
   JASMINE,
   JASMINE_ADAPTER,
