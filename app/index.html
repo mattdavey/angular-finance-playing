@@ -3,9 +3,19 @@
 <head>
   <meta charset="utf-8">
   <title>My AngularJS App</title>
+
+  <!-- 1. Shim missing platform features -->
+  <script src="lib/polymer/platform.min.js"></script>
+  
+  <!-- 2. Load a component -->
+  <link rel="import" href="js/components/x-ccypair.html">
+
   <link rel="stylesheet" href="css/app.css"/>
 </head>
 <body>
+  <!-- 3. Declare the component by its tag. -->
+  <x-ccypair></x-ccypair>
+
   <ul class="menu">
     <li><a href="#/view1">view1</a></li>
     <li><a href="#/view2">view2</a></li>
